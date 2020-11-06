@@ -1,0 +1,5 @@
+// En esta práctica debéis crear una interfaz con el nombre "UserData" en el archivo "user-data.ts". En esta interfaz, debéis añadir las propiedades "name", "age" y "phone". Los tipos de estas tres propiedades son cadena de texto, número y número respectivamente. Tenéis que exportar esta interfaz.
+// En el documento "index.ts" debéis importar la interfaz que habéis creado en el punto anterior. Cread una variable llamada "user" que sea del tipo de la interfaz que habéis importado.
+// Luego, debéis crear una función llamada "getPhone" que reciba un parámetro de tipo genérico. La idea es que esta función reciba un objeto de tipo "UserData" así que la funcionalidad de esta función va consistir en sacar por consola el teléfono del usuario.
+// Para terminar, asignad un objeto literal (sin clase) a la variable "user" (con los datos que queráis pero que no de erroes de tipo) y luego pasad por parámetros dicha variable a una llamada de la función "getPhone" (no olvidéis el genérico).
+// Ánimo que ya lo tenéis!
